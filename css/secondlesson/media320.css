@@ -1,0 +1,257 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .header-hint {
+        display: none;
+    }
+
+    .header-img {
+        margin-top:0;
+    }
+
+    .header-logo-img {
+        padding: 0;
+    }
+
+    .hint--small {
+        display: block;
+        margin: 50px auto 0;
+    }
+
+    .header-img {
+        margin-top:0;
+    }
+
+    .header-text {
+        width: 90%;
+    }
+
+    .header-img {
+        width: 230px;
+    }
+
+    .container__sales {
+        height: 800px;
+    }
+
+    .sales__loser {
+        width: 100%;
+        float: none;
+        height: 350px;
+    }
+
+
+    .sale12 {
+        margin-top: -160px;
+    }
+
+    .sales-loser__images {
+        height: 150px;
+    }
+
+    .sales__loser-img {
+    }
+
+    .sales__loser-text {
+        margin: -10px -10% 0 0;
+        float: right;
+    }
+
+    .sales__winner {
+        width: 100%;
+        float: none;
+        height: 300px;
+    }
+
+    .sales__winner-img {
+        margin-top: -120px;
+    }
+
+    .sales__winner-text {
+        margin: 0 0 0 -10%;
+        float: left;
+    }
+
+    .container__success {
+        height:950px;
+    }
+
+    .success__loser {
+        margin-top: 0;
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .success-blink {
+        width: 80px;
+        margin: 0 0 0 76%;
+    }
+
+    .success__loser-text {
+        margin: 0 -10% 0 0;
+    }
+
+    .sucess__winner {
+        margin-top: 0;
+        float: none;
+        width: 100%;
+        height: 500px;
+        background-position: 50% 50%;
+    }
+
+    .sucess__winner-text {
+        margin: 0 0 0 -10%;
+    }
+
+    .success__winner-img {
+        margin-right: -10%;
+        margin-top: -70%;
+        max-width: 320px;
+    }
+
+    .glare {
+        margin-left:0;
+        margin-top:-65%;
+    }
+
+    .scheme-wrapper {
+        height:1450px;
+        background: white url("../../assets/pictures/svg/secondlesson/bg-scheme480.svg");
+    }
+
+    .scheme-text {
+        width: 85%;
+    }
+
+    .scheme__images {
+        width: 100%;
+    }
+
+    .images--left {
+        width: 49%;
+        margin: 250px 0 0 0;
+        float: none;
+    }
+
+    .images--center {
+        margin-top: -650px;
+        width: 40%;
+    }
+
+    .images--right {
+        width: 49%;
+        margin: -185px 0 0 0;
+    }
+
+    .sbl-img {
+        width: 90px;
+    }
+
+    .bl-img {
+        width: 70px;
+    }
+
+    .p-img--right {
+        width: 25px;
+    }
+
+    .p-img {
+        width: 30px;
+        padding: 0 10%;
+    }
+
+    .blarrow {
+        width: 15px;
+    }
+
+    .mp-img--right {
+        padding: 0 2px;
+    }
+
+    .about__loser {
+        height: 830px;
+    }
+
+    .about__loser-text {
+        width: 90%;
+    }
+
+    .loser-img {
+        width: 100%;
+    }
+
+    .loser__texts {
+        float: none;
+        width:100%;
+    }
+
+    .about__winner {
+        height:480px;
+        background: url("../../assets/pictures/svg/secondlesson/bg-aboutwinner480.svg");
+    }
+
+    .winner-caprion {
+        width: 90%;
+    }
+
+    .images__pandas {
+        width:90%;
+        margin: 0;
+    }
+
+    .pandas-img {
+        width: 100%;
+    }
+
+    .paparazzi {
+        width: 90%;
+    }
+
+    .blinks--left {
+         padding-top: 150px;
+     }
+
+    .blinks--right{
+        padding-top: 150px;
+    }
+
+    .blink--left {
+        width: 80px;
+        margin-left: 30px;
+    }
+
+    .blink--right {
+        width: 100px;
+        left: 80%;
+    }
+
+    .paparazzi--right {
+        width: 100px;
+        left: 18%;
+    }
+
+    .paparazzi--left {
+        width: 100px;
+        margin-left:-120px;
+    }
+
+    .container__join-us {
+        height: 500px;
+    }
+
+    a.animBtn:link {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    .about__loser {
+        background: url("../../assets/pictures/svg/secondlesson/bg-aboutloser320.svg") ;
+    }
+
+    .zigzag-section-bottom:after {
+        width: 280px;
+    }
+
+    .zigzag-section-top:after {
+        width: 280px;
+    }
+}

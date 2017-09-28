@@ -1,0 +1,14 @@
+@media screen and (max-width: 399px) {
+
+    /*SCHOOL*/
+
+        /*FIRST LESSON*/
+
+            .fl-header {
+                background: url("../assets/pictures/svg/firstlesson/tree-left.svg")no-repeat -20% 60%,
+                url("../assets/pictures/svg/firstlesson/fl-home.svg") no-repeat 180% 25%,
+                url("../assets/pictures/svg/firstlesson/bgtop3.svg") no-repeat 0 520px,
+                url("../assets/pictures/svg/firstlesson/bgtop1.svg") no-repeat 0 410px,
+                #bdeff2 url("../assets/pictures/svg/firstlesson/bgtop2.svg") no-repeat 0 380px;
+                background-size: 180px,250px, 100%, 100%, 100%;}
+}

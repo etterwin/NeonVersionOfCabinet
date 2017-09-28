@@ -1,0 +1,108 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header-img {
+        margin: -250px 0 0 250px;
+    }
+
+    .scheme {
+        height: 1000px;
+    }
+
+    .about__loser {
+        width: 90%;
+    }
+
+    .loser-img {
+        padding-top: 70px;
+    }
+
+    .sales__loser-text {
+        margin: 30px 0 0 -30px;
+    }
+
+    .success-blink {
+        margin: 0 0 0 80%;
+        width: 80px;
+    }
+
+    .sales__winner-text {
+        margin: 30px -50px 0 0;
+    }
+
+    .container__success {
+        height: 400px;
+    }
+
+    .success__loser {
+        margin-top: -200px;
+    }
+
+    .sucess__winner {
+        margin-top: -200px;
+    }
+
+    .success__winner-img {
+        margin-top: -42%;
+    }
+
+    .glare {
+        margin-top: -21%;
+    }
+
+    .success__loser-text {
+        margin: 0 -20px 0 0;
+    }
+
+    .sucess__winner-text {
+        margin-left: -20px;
+    }
+
+    .images--right {
+        width: 33%;
+    }
+
+    .images__pandas {
+        width: 88%;
+        margin: 0 0;  }
+
+    .pandas-img {
+        margin: 0 12%;  }
+
+    .paparazzi {
+        width: 90%;  }
+
+    .paparazzi--left {
+        width: 200px;
+        margin-left: -260px;  }
+
+    .paparazzi--right {
+        width: 200px;
+        left: 27%;  }
+
+    .about__winner {
+        height: 650px;  }
+
+    .scheme {
+        background: url("../../assets/pictures/svg/secondlesson/bg-scheme.svg") no-repeat 50% 10%,
+        white url("../../assets/pictures/svg/secondlesson/bg-scheme.svg") no-repeat 50% 90%;  }
+
+    .about__loser {
+        background: url("../../assets/pictures/svg/secondlesson/bg-aboutloser768.svg") ;  }
+
+    .sale12 {
+        padding: 10px;  }
+
+    .sale30 {
+        padding: 10px;  }
+
+    .sales-loser__images {
+        height: 170px;  }
+
+    .zigzag-section-top:after {
+        width: 712px;  }
+
+    .zigzag-section-bottom:before {
+        max-width: 712px;  }
+
+
+
+}

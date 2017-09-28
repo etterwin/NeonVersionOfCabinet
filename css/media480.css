@@ -1,0 +1,67 @@
+@media screen and (min-width: 400px) and (max-width: 480px) {
+
+    /*school*/
+
+        .fl-header {
+            background: url("../assets/pictures/svg/firstlesson/tree-left.svg")no-repeat -20% 60%,
+            url("../assets/pictures/svg/firstlesson/fl-home.svg") no-repeat 140% -30%,
+            url("../assets/pictures/svg/firstlesson/bgtop3.svg") no-repeat 0 440px,
+            url("../assets/pictures/svg/firstlesson/bgtop1.svg") no-repeat 0 310px,
+            #bdeff2 url("../assets/pictures/svg/firstlesson/bgtop2.svg") no-repeat 0 250px;
+            background-size: 250px, 350px, 100%, 100%, 100%;}
+
+        .basic-prom-number-fix3 {
+            margin-top: -50%;}
+
+        .basic-prom-number {
+            margin-top: -53%;}
+
+        .basic-prom-number-fix {
+            margin-top: -30%; }
+
+        .coop-footer__container,
+        .coop__argument {
+            width: 100%;}
+
+        .yes-dialog-img {
+            margin-right: -20px;}
+
+        .yes__images {
+            width: 90%;}
+
+        .yes__dialog {
+            width: 80%;}
+
+        .yes-content-img {
+            margin-top: 0;}
+
+        .yes-hang__container {
+            width: 100%;}
+
+        .basic-inst__link {
+            width: 100%;}
+
+        .basic-inst-container-number {
+            margin-top: -30%;}
+
+        .lesson-container-text--onestick {
+            margin-top: -65px;}
+
+        .charm-container__content-fix {
+            width: 80%;}
+
+        .basic-inst-container-number--one {
+            margin-top: -90px;}
+
+        .basic-inst-container-number--two {
+            margin-top: -110px;}
+
+        .base-fb-container-number--one {
+            margin-top: -85px;}
+
+        .base-fb-container-number--two {
+            margin-top: -100px;}
+
+        .base-fb-container-number--four {
+            margin-top: -110px;}
+}

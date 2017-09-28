@@ -1,0 +1,130 @@
+@media screen and (min-width: 768px) and (max-width: 853px){
+
+    input[type="text"] {
+        right: 1%;
+        top: 40px;}
+
+    input[type="submit"] {
+        right: 1%;
+        top: 40px;}
+
+    /*header*/
+
+        .navigation-item-link,
+        .logout-link {
+            font-size: 16px;}
+
+        .header-form {
+            display: none;}
+
+        .header {
+            height: 50px;}
+
+        .input[type="text"] {
+            font-size: 14px;}
+
+        .logout-link {
+            margin-right: 2%; }
+
+        .navigation-list {
+            margin-left: 2%;}
+
+        .navigation-list {
+            margin-left: 2%;}
+
+        .navigation-item {
+            padding: 13px 1%;}
+
+    /*shop*/
+
+        .shop-item__container {
+            width: 30%;
+            padding: 5px 0;
+            box-sizing: border-box;}
+
+    /*profile*/
+
+        .user-info__container {
+            width: 65%;}
+
+        .user-data--left,
+        .user-data--right {
+            width: 100%;}
+
+    /*contacts*/
+
+        .popup-box {
+            width: 80%;}
+
+        .contacts {
+            width: 60%;
+            margin: 20px 0 120px 20px;}
+
+        .contact__container {
+            width: 45%;}
+
+    /*settings*/
+
+        .settings {
+            width: 65%;}
+
+        .setting__avatar {
+            float: none;
+            width: 40%;
+            margin: 20px auto;}
+
+        .setting__container {
+            width: 100%;}
+
+
+    /*school*/
+
+        .school__body {
+            width: 98%;
+            margin: 0 auto 100px;
+            float: none;}
+
+        .fl-header {
+            background: url("../assets/pictures/svg/firstlesson/tree-left.svg")no-repeat 0 70%,
+            url("../assets/pictures/svg/firstlesson/fl-home.svg") no-repeat 100% 10%,
+            url("../assets/pictures/svg/firstlesson/bgtop3.svg") no-repeat 0 102%,
+            url("../assets/pictures/svg/firstlesson/bgtop1.svg") no-repeat 0 70%,
+            #bdeff2 url("../assets/pictures/svg/firstlesson/bgtop2.svg") no-repeat 0 50%;
+            background-size: 300px, 400px, 100%, 100%, 100%;}
+
+        .main__scheme {
+            background-size: 120%;}
+
+        .user__info {
+            width: 80%;}
+
+        .school__navigation {
+            float: none;
+            display: inline-block;
+            width: 100%;  }
+
+        .school-nav-active {
+            padding: 5px 20px;
+            text-align: center;}
+
+        .school-text {
+            padding: 5px 20px;
+            text-align: center;}
+
+        .basic-prom-number-fix3 {
+            margin-top: -20%;}
+
+        .basic-prom-number {
+            margin-top: -23%;}
+
+        .contradictions-infographic-number {
+            padding: 40px 10% 0;}
+
+        .contradictions-infographic-text-one,
+        .contradictions-infographic-text-two {
+            width: 39%;}
+
+    .logout-link  {
+        margin-top: 14px;}
+
+}

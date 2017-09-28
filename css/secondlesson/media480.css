@@ -1,0 +1,185 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .header-hint {
+        display: none;
+    }
+
+    .header-img {
+        margin-top:0;
+    }
+
+    .hint--small {
+        display: block;
+        margin: 50px auto 0;
+    }
+
+    .header-sl-logo-img {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .header-text {
+        width: 90%;
+    }
+
+
+    .container__sales {
+        height:750px;
+    }
+
+    .sales__loser {
+        float: none;
+        width: 90%;
+        max-width: 500px;
+        height: 360px;
+    }
+
+    .success-blink {
+        width: 80px;
+        margin: 0 0 0 81%;
+    }
+
+    .sales__loser-img {
+        margin: 0 0;
+    }
+
+    .sales__loser-text {
+        float: right;
+        margin: -150px -80px 0 0;
+    }
+
+    .sales__winner {
+        float: none;
+        width: 90%;
+        max-width: 500px;
+        height:360px;
+        background: url("../../assets/pictures/svg/secondlesson/bg-saleswinner.svg") no-repeat 90% -10%;
+    }
+
+    .sales__winner-img {
+        margin: 0 -70px 0;
+        float: right;
+    }
+
+    .sales__winner-text {
+        margin: -10px 35% 0 0;
+    }
+
+    .container__success {
+        height: 1100px;
+    }
+
+    .success__loser {
+        width: 90%;
+        float: none;
+        margin: 0;
+    }
+
+    .success__loser-text {
+        margin: -50px -30px 0 0;
+    }
+
+    .sucess__winner {
+        width: 90%;
+        float: none;
+        margin: 0;
+        height: 600px;
+    }
+    .glare {
+        margin-top:-43%;
+    }
+
+    .scheme-wrapper {
+        height: 1300px;
+        background: white url("../../assets/pictures/svg/secondlesson/bg-scheme480.svg");
+    }
+
+    .scheme__images {
+        width: 90%;
+    }
+
+    .images--left {
+        float: none;
+        width: 40%;
+        margin: 200px 0 0;
+    }
+
+    .images--right {
+        width:40%;
+        margin: -260px 0 0;
+    }
+
+    .images--center {
+        margin-top: -600px;
+    }
+
+    .about__loser {
+        height:770px;
+    }
+
+    .loser-img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .loser__texts {
+        float: none;
+        width:95%;
+    }
+
+    .about__loser-text {
+        width: 90%;
+    }
+
+    .about__winner {
+        height: 550px;
+        background: url("../../assets/pictures/svg/secondlesson/bg-aboutwinner480.svg");
+    }
+
+    .images__pandas {
+        width: 90%;
+        margin:0;
+    }
+
+    .pandas-img {
+        width: 100%;
+    }
+
+    .paparazzi {
+        width: 90%;
+    }
+
+    .blink--left {
+        width: 110px;
+        margin-left: 30px;
+    }
+
+    .blink--right {
+        width: 120px;
+        left: 80%;
+    }
+
+    .paparazzi--right {
+        width: 150px;
+        left: 10%;
+    }
+
+    .paparazzi--left {
+        width: 150px;
+        margin-left:-180px;
+    }
+
+    .container__join-us {
+        height: 550px;
+    }
+
+    .about__loser {
+        background: url("../../assets/pictures/svg/secondlesson/bg-aboutloser480.svg") ;
+    }
+
+    .zigzag-section-bottom:after {
+        max-width: 430px;
+    }
+
+}

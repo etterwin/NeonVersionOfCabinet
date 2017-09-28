@@ -1,0 +1,59 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .loser-img {
+        padding-top: 50px;
+    }
+
+    .sales-loser__images {
+        height: 240px;
+    }
+
+    .sales__winner-text {
+        margin-right: 60px;
+    }
+
+    .sale12 {
+        padding-left: 0;
+    }
+
+    .sale30 {
+        padding-right: 0;
+    }
+
+    .container__success {
+        height: 520px;
+    }
+
+    .images__pandas {
+        width: 88%;
+        margin: 0 0;
+    }
+
+    .pandas-img {
+        margin-left: 7%;
+    }
+
+    .success-blink {
+        margin: 0 0 0 80%;
+    }
+
+    .success__winner-img {
+        margin-top:-44%;
+    }
+
+    .glare {
+        margin-top:-17%;
+    }
+
+    .sucess__winner {
+        margin-top: -150px;
+    }
+
+    .scheme__images {
+        width: 100%;
+    }
+
+    .zigzag-section-top:after,
+    .zigzag-section-bottom:after {
+        max-width: 704px;
+    }
+}
