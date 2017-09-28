@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="601.031" viewBox="0 0 1200 601.031">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="671.72" y1="395.813" x2="671.72" y2="996.844" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a5c36"/>
+      <stop offset="0.167" stop-color="#226e42"/>
+      <stop offset="0.438" stop-color="#308a56"/>
+    </linearGradient>
+  </defs>
+  <path id="Фигура_4" data-name="Фигура 4" class="cls-1" d="M-15.97,430.859s897.067-80.195,1219.05,2C1534.04,517.346,1380.7,1112.01,1360,977L-70,866Z" transform="translate(0 -395.813)"/>
+</svg>
