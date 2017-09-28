@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>School | Negotiation</title>
+        <link rel="shortcut icon" href="assets/pictures/title.png" type="image/png">
+
+        <!-- CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+        <link href="css/media1600.css" rel="stylesheet">
+        <link href="css/media1400.css" rel="stylesheet">
+        <link href="css/media768.css" rel="stylesheet">
+        <link href="css/media480.css" rel="stylesheet">
+        <link href="css/media320.css" rel="stylesheet">
+
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css?family=Kanit:300" rel="stylesheet">
+
+        <!-- JS -->
+        <script src="js/accordion.js"></script>
+        <script src="js/dropdownmenu.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/submenu.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+
+    </head>
+    <body class="school">
+
+    <a id="anchor--top"></a>
+
+    <div class="btn button-container" id="open">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+
+    <nav class="nav-mobil" id="nav-mobil">
+
+        <ul class="nav-mobil-list" id="accordion">
+            <li class="nav-mobil-item"><a href="EN.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="">Newsfeed</a></li>
+            <li class="nav-mobil-item submenu-open">
+                <div class="link"><img src="assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">My structure<i class="fa fa-chevron-down"></i></div>
+                <ul class="mobil-submenu-list">
+                    <li class="mobil-submenu-item"><a href="profile.html" class="mobil-submenu-item-link">My profile</a></li>
+                    <li class="mobil-submenu-item"><a href="statistic.html" class="mobil-submenu-item-link">My statistic</a></li>
+                    <li class="mobil-submenu-item"><a href="contacts.html" class="mobil-submenu-item-link">My contacts</a></li>
+                    <li class="mobil-submenu-item"><a href="setting.html" class="mobil-submenu-item-link">Setting</a></li>
+                </ul>
+            </li>
+            <li class="nav-mobil-item"><a href="instruments.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="">Instruments</a></li>
+            <li class="nav-mobil-item submenu-open">
+                <div class="link"><img src="assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="">School<i class="fa fa-chevron-down"></i></div>
+                <ul class="mobil-submenu-list">
+                    <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link">Introducion</a></li>
+                    <li class="mobil-submenu-item"><a href="onlinePromotion.html" class="mobil-submenu-item-link">Online promotion</a></li>
+                    <li class="mobil-submenu-item"><a href="offlinePromotion.html" class="mobil-submenu-item-link">Offline promotion</a></li>
+                    <li class="mobil-submenu-item"><a href="businessCreation.html" class="mobil-submenu-item-link">Business creating</a></li>
+                    <li class="mobil-submenu-item"><a href="increaseInSales.html" class="mobil-submenu-item-link">Increase in sales</a></li>
+                    <li class="mobil-submenu-item"><a href="negotiation.html" class="mobil-submenu-item-link">Negotiation</a></li>
+                </ul>
+            </li>
+            <li class="nav-mobil-item"><a href="shop.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="">Shop</a></li>
+            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/chat.svg" class="nav-mobil-icon" alt="">Chat</a></li>
+            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="">Logout</a></li>
+        </ul>
+
+    </nav>
+
+    <header class="header">
+
+        <div class="header-wrapper">
+
+            <nav class="header-navigation">
+
+                <ul class="navigation-list">
+                    <li class="navigation-item"><a href="EN.html" class="navigation-item-link">Newsfeed</a></li>
+                    <li class="navigation-item dropdown toggle">
+                        <input id="navigation-item-checkbox" type="checkbox">
+                        <label for="navigation-item-checkbox" class="navigation-item-checkbox">My structure</label>
+                        <ul class="submenu-list--black">
+                            <li class="submenu-item--black"><a href="profile.html" class="submenu-item-link--black">My profile</a></li>
+                            <li class="submenu-item--black"><a href="statistic.html" class="submenu-item-link--black">My statistic</a></li>
+                            <li class="submenu-item--black"><a href="contacts.html" class="submenu-item-link--black">My contacts</a></li>
+                            <li class="submenu-item--black"><a href="setting.html" class="submenu-item-link--black">Settings</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="navigation-item"><a href="instruments.html" class="navigation-item-link">Instruments</a></li>
+                    <li class="navigation-item"><a href="introduction.html" class="navigation-item-link">School</a></li>
+                    <li class="navigation-item"><a href="shop.html" class="navigation-item-link">Shop</a></li>
+                    <li class="navigation-item"><a href="#" class="navigation-item-link">Chat</a></li>
+                </ul>
+
+
+                <form class="header-form" action="" autocomplete="on">
+                    <input id="search" name="search" type="search" placeholder="Search...">
+                    <input id="search_submit" value="Rechercher" type="submit">
+                </form>
+
+                <a href="login.html" class="logout-link">Logout</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <div class="wrapper-school">
+
+        <nav class="school__navigation">
+
+            <ul class="school-nav-list">
+                <li class="school-nav-item"><a href="introduction.html" class="school-nav-item-link">Introduction</a></li>
+                <li class="school-nav-item"><a href="onlinePromotion.html" class="school-nav-item-link">Online promotion</a></li>
+                <li class="school-nav-item"><a href="offlinePromotion.html" class="school-nav-item-link">Offline promotion</a></li>
+                <li class="school-nav-item"><a href="businessCreation.html" class="school-nav-item-link">Business creation</a></li>
+                <li class="school-nav-item"><a href="increaseInSales.html" class="school-nav-item-link">Increase in sales</a></li>
+                <li class="school-nav-item"><a href="negotiation.html" class="school-nav-item-link school-nav-item-link--active">Negotiation</a></li>
+            </ul>
+
+        </nav>
+
+            <main class="school__body">
+
+                <div class="school-accordion">
+
+                    <h1 class="school-accordion-caption">The rule of 3 “Yes”</h1>
+                    <div class="school-accordion__container">
+
+                        <h1 class="lesson-caption">The rule of 3 “Yes”</h1>
+                        <p class="lesson-text">During the process of negotiations many people ask a question that seems easy: “ How to convince a person to make defined thing?” And are there any special rules of negotiations? Learned some methods and literally with one word bring under control any listener - a dream of a negotiator!</p>
+                        <p class="lesson-text">Such certain rules do not exist, but there are many effective techniques that, of course, will not increase your persuasion by 100%, but will significantly help create a good impression of you as a good negotiator.</p>
+                        <p class="lesson-text">One of such rules is the rule of 3 “yes”. It gives you more chances to hear from an interlocutor a positive response to a right question. This rule is based on one simple psychological feature of people: if a person repeatedly agrees, then the probability of a positive response in the future is significantly increased. By the way, with the word "no" is exactly the same story. To successfully complete the final stage of any transaction / sale, this rule works perfectly well.</p>
+
+                        <div class="yes__images">
+                            <img src="assets/pictures/svg/icons/checked%20(1).svg" class="yes-img" alt="">
+                            <img src="assets/pictures/svg/icons/checked%20(1).svg" class="yes-img" alt="">
+                            <img src="assets/pictures/svg/icons/checked%20(1).svg" class="yes-img" alt="">
+                        </div>
+
+                        <p class="lesson-hint">This rule is used with success even by ordinary people. For example, children very often use this easy algorithm of acts. Of course, you heard approximately such a dialogue between a child and a mother:</p>
+
+                        <div class="yes__dialog">
+
+                            <ul class="yes-dialog-list">
+                                <li class="yes-dialog-item-first"><img src="assets/pictures/svg/dash.svg" class="yes-dialog-icon"><p class="yes-dialog-first">Mummy, do you love me?</p></li>
+                            </ul>
+
+                            <img src="assets/pictures/svg/icons/boyfirework.svg" class="yes-dialog-img" alt="">
+
+                            <ul class="yes-dialog-list">
+                                <li class="yes-dialog-item-second"><img src="assets/pictures/svg/dashdark.svg" class="yes-dialog-icon"><p class="yes-dialog-second">Yes</p></li>
+                                <li class="yes-dialog-item-first"><img src="assets/pictures/svg/dash.svg" class="yes-dialog-icon"><p class="yes-dialog-first">Mummy? did I behave good today?</p></li>
+                                <li class="yes-dialog-item-second"><img src="assets/pictures/svg/dashdark.svg" class="yes-dialog-icon"><p class="yes-dialog-second">Yes</p></li>
+                                <li class="yes-dialog-item-first"><img src="assets/pictures/svg/dash.svg" class="yes-dialog-icon"><p class="yes-dialog-first">Mummy, will you buy me this toy car?</p></li>
+                            </ul>
+
+
+                        </div>
+
+                        <p class="lesson-hint">What do you think the answer in 99% of cases is?</p>
+
+                        <p class="lesson-text">This method is interesting and because of the fact that there is scientific evidence to this: there are medical suppositions why possibility of positive answers increases. They say that it is due eduction of "positive" hormones in those cases when an interlocutor responds positively. And vice versa - when you answer "no", your opponent is ready to "fight and confrontat".</p>
+
+                        <p class="lesson-hint">Let’s consider a simple example: you found a potential buyer and now you need to convince him to buy your product. Here how you should conduct your final part of conversation, according to the rule of 3 “yes”:</p>
+
+                        <div class="yes__dialog">
+
+                            <ul class="yes-dialog-list">
+                                <li class="yes-dialog-item-first"><img src="assets/pictures/svg/dash.svg" class="yes-dialog-icon"><p class="yes-dialog-first">So, you want to lose weight for a long time?</p></li>
+                                <li class="yes-dialog-item-second"><img src="assets/pictures/svg/dashdark.svg" class="yes-dialog-icon"><p class="yes-dialog-second">Yes</p></li>
+                                <li class="yes-dialog-item-first"><img src="assets/pictures/svg/dash.svg" class="yes-dialog-icon"><p class="yes-dialog-first">You said you haven’t time to eat right?</p></li>
+                                <li class="yes-dialog-item-second"><img src="assets/pictures/svg/dashdark.svg" class="yes-dialog-icon"><p class="yes-dialog-second">Yes</p></li>
+                                <li class="yes-dialog-item-first"><img src="assets/pictures/svg/dash.svg" class="yes-dialog-icon"><p class="yes-dialog-first">By the way, the cocktail Vita Energy I told you, can be made for 5 minutes. Maybe do you want to try?</p></li>
+                                <li class="yes-dialog-item-second"><img src="assets/pictures/svg/dashdark.svg" class="yes-dialog-icon"><p class="yes-dialog-second">Yes...</p></li>
+                            </ul>
+
+                        </div>
+
+                        <p class="lesson-text">This method is very easy, but to make it work you need to follow THREE MAIN PRINCIPLES:</p>
+
+                        <div class="lesson__container">
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/idea%20(1).svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-two"><b>LOGIC.</b> Questions must belong to a topic and logically bracketed</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/formula.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-three"><b>SIMPLICITY.</b> You should not use difficult and complex statements, the easier communication - the more trust you have</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/avatarboy.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-three"><b>ADEQUATENESS.</b> Questions must be adequate your listener haven’t a feeling that he is used and you want to deceive him.</p>
+                            </div>
+
+                        </div>
+
+                        <p class="lesson-hint">In our opinion this method has advantages and disadvantages</p>
+
+                        <div class="yes-hang__container">
+
+                            <div class="yes-hang yes-hang__minus">
+
+                                <img src="assets/pictures/svg/icons/minus.svg" class="yes-hang-img" alt="">
+                                <p class="yes-hang-text">it is necessary to think in advance a chain of questions and variants of manipulation during the conversation, if suddenly something "went wrong"</p>
+
+                            </div>
+
+                            <div class="yes-hang yes-hang__plus">
+
+                                <img src="assets/pictures/svg/icons/plus1.svg" class="yes-hang-img" alt="">
+                                <div class="yes-hang__text">
+                                    <p class="yes-hang-text">Allows you to inconspicuously bring an interlocutor to the solution we need</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <p class="lesson-text">So if you think over the course of the conversation in advance and pay close attention to the questions that you ask your interlocutor to make it look adequate and do not cause the potential client to think that you are trying to manipulate his consciousness, this rule can be used very successfully to increase the number of your sales in DV.</p>
+
+                        <footer class="lesson-footer">
+                            <p class="lesson-footer-text">This rule is only one of few that can help you develop the skill of negotiation, in the following DVC lessons we will talk about more complex and effective techniques for influencing your potential buyers.</p>
+                        </footer>
+
+                    </div>
+
+
+                    <h1 class="school-accordion-caption">Mister-charm</h1>
+                    <div class="school-accordion__container">
+
+                        <h1 class="lesson-caption">Mister-charm</h1>
+                        <p class="lesson-text">Have you ever thought why some people literally “attract” people to themselves, it’s pleasure to deal with them and communicate? Most people believe that charisma is a natural gift and it can not be strengthened. In fact, it is very simple to improve this trait!</p>
+                        <p class="lesson-text">There are 3 main groups of traits, thanks to which you can increase the level of personal charm. The first group includes the following natural traits:</p>
+
+                        <div class="charm__container">
+
+                            <h2 class="lesson-container-caption--black">Natural traits</h2>
+
+                            <div class="charm-container__content">
+                                <img src="assets/pictures/svg/icons/grouptrio.svg" class="charm-content-img" alt="">
+                                <p class="charm-content-text">Sociability (ability to easily get on with people)</p>
+                            </div>
+
+                            <div class="charm-container__content">
+                                <img src="assets/pictures/svg/icons/masks.svg" class="charm-content-img" alt="">
+                                <p class="charm-content-text">Empathy ( ability to empathize)</p>
+                            </div>
+
+                            <div class="charm-container__content">
+                                <img src="assets/pictures/svg/icons/search1.svg" class="charm-content-img" alt="">
+                                <p class="charm-content-text">Reflexion ( ability to understand a person)</p>
+                            </div>
+
+                            <div class="charm-container__content">
+                                <img src="assets/pictures/svg/icons/twince.svg" class="charm-content-img" alt="">
+                                <p class="charm-content-text">Eloquence (the ability to impact with a word).</p>
+                            </div>
+
+                        </div>
+
+                        <p class="lesson-text">These traits form the basis of natural talents, designated by the generalized concept of "the ability to please people." The second group includes characteristics of a personality, which are the result of education and upbringing. </p>
+
+                        <div class="charm__container">
+
+                            <h2 class="lesson-container-caption--black">Characteristics of a personality</h2>
+
+                            <div class="charm-container__content">
+                                <img src="assets/pictures/svg/icons/libra.svg" class="charm-content-img" alt="">
+                                <p class="charm-content-text">Moral values</p>
+                            </div>
+
+                            <div class="charm-container__content">
+                                <img src="assets/pictures/svg/icons/certificate1.svg" class="charm-content-img" alt="">
+                                <p class="charm-content-text">Mental health</p>
+                            </div>
+
+                            <div class="charm-container__content-fix">
+                                <img src="assets/pictures/svg/icons/network1.svg" class="charm-content-img" alt="">
+                                <p class="charm-content-text">Possession of communication techniques: interpersonal communication, business speech, anticipation and overcoming of conflict situations.</p>
+                            </div>
+
+                        </div>
+
+                        <p class="lesson-text">The third group should include what is related to the life and professional experience of man. Especially valuable when this experience helps to sharpen intuition. This is of great importance. Self-confidence and standard behavior have a negative impact on the perception of a person who is interested in recognition and benevolent attitude.</p>
+                        <p class="lesson-text">How to strengthen personal charisma? What do you need to change in yourself, in your behavior for this? Just use our tips:</p>
+
+                        <div class="lesson__container">
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/avatarboy.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-four">Behave naturally. Just be yourself, you do not need to chase after some standards or bars - it always looks fake and insincere. The most favorable impression we usually make when we behave naturally.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/handplant.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-overkill">Be a good listener. People are always more interested in their lives than in lives of others. Learn to listen to an interlocutor - and not just listen, but hear. Bring in yourself a stress-resistance - if during a conversation you really want to interrupt an interlocutor, take a deep breath and a slow exhalation; Repeat these exercises several times. Developing this habit in yourself, you will learn to listen patiently to a speaker without interrupting him.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/rockstar.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-six">Demonstrate your interest in others - this is one of the best ways to make a good impression. Be attentive to an interlocutor. Take this position to communicate with him face to face. Be sure to keep eye contact - but, of course, in moderation, because the defiant look will not bring anything good.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/heart.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-four">Try to understand and support an interlocutor. Let people meet in you something that they most need: participation, understanding, support. Often walk in another person’s shoes, try to imagine what he must feel in this situation.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/trio.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-three">Emphasize the similarity with your interlocutor. As you know, we are attracted to others be the unity of views, common interests, similar destinies.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/like.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-six">Express sincere approval. Except in very rare exceptions, people like the approval of their ideas and actions, so sincere praise promotes a good impression. The approval or compliment naturally follows from our desire to find unifying moments. Do not miss the opportunity to tell a person pleasant - there are not so much positive emotions in life!</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/shirt.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-four">Do not scrimp on compliments. Let people feel their sincerity, notice all the good things (from clothes, hairstyles to interesting ideas, thoughts) and do not hesitate to tell people. At the same time, talk about what you really feel.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <h1 class="school-accordion-caption-empty">Pockets full of money</h1>
+
+                <h1 class="school-accordion-caption-empty">How to convince a person to become BL</h1>
+
+                <h1 class="school-accordion-caption-empty">Conversation examples that unconditionally convince to follow You</h1>
+
+                <h1 class="school-accordion-caption-empty">Residual income. Structure of strong BL and SBL (senior business leader)</h1>
+
+                <h1 class="school-accordion-caption-empty">Word-painter. Even the most stubborn people will be faithful</h1>
+
+            </main>
+
+        </div>
+
+        <a href="#anchor--top" class="scrollup" id="scrollToTop">
+            <div class="arrow-wrapper"><div class="arrows"></div></div>
+        </a>
+
+        <footer class="footer">
+            <p class="footer-text">All rights reserved.
+                <br> 2017 | <span class="diavita">DiaVita</span></p>
+        </footer>
+
+        <script src="js/accordion.js"></script>
+        <script src="js/dropdownmenu.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/submenu.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+    </body>
+</html>

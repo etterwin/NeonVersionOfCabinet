@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>School | Offline promotion</title>
+        <link rel="shortcut icon" href="assets/pictures/title.png" type="image/png">
+
+        <!-- CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+        <link href="css/media1600.css" rel="stylesheet">
+        <link href="css/media1400.css" rel="stylesheet">
+        <link href="css/media992.css" rel="stylesheet">
+        <link href="css/media768.css" rel="stylesheet">
+        <link href="css/media480.css" rel="stylesheet">
+        <link href="css/media320.css" rel="stylesheet">
+
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css?family=Kanit:300" rel="stylesheet">
+
+        <!-- JS -->
+        <script src="js/accordion.js"></script>
+        <script src="js/dropdownmenu.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/submenu.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+
+    </head>
+    <body class="school">
+
+    <a id="anchor--top"></a>
+
+    <div class="btn button-container" id="open">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+
+    <nav class="nav-mobil" id="nav-mobil">
+
+        <ul class="nav-mobil-list" id="accordion">
+            <li class="nav-mobil-item"><a href="EN.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="">Newsfeed</a></li>
+            <li class="nav-mobil-item submenu-open">
+                <div class="link"><img src="assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">My structure<i class="fa fa-chevron-down"></i></div>
+                <ul class="mobil-submenu-list">
+                    <li class="mobil-submenu-item"><a href="profile.html" class="mobil-submenu-item-link">My profile</a></li>
+                    <li class="mobil-submenu-item"><a href="statistic.html" class="mobil-submenu-item-link">My statistic</a></li>
+                    <li class="mobil-submenu-item"><a href="contacts.html" class="mobil-submenu-item-link">My contacts</a></li>
+                    <li class="mobil-submenu-item"><a href="setting.html" class="mobil-submenu-item-link">Setting</a></li>
+                </ul>
+            </li>
+            <li class="nav-mobil-item"><a href="instruments.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="">Instruments</a></li>
+            <li class="nav-mobil-item submenu-open">
+                <div class="link"><img src="assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="">School<i class="fa fa-chevron-down"></i></div>
+                <ul class="mobil-submenu-list">
+                    <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link">Introducion</a></li>
+                    <li class="mobil-submenu-item"><a href="onlinePromotion.html" class="mobil-submenu-item-link">Online promotion</a></li>
+                    <li class="mobil-submenu-item"><a href="offlinePromotion.html" class="mobil-submenu-item-link">Offline promotion</a></li>
+                    <li class="mobil-submenu-item"><a href="businessCreation.html" class="mobil-submenu-item-link">Business creating</a></li>
+                    <li class="mobil-submenu-item"><a href="increaseInSales.html" class="mobil-submenu-item-link">Increase in sales</a></li>
+                    <li class="mobil-submenu-item"><a href="negotiation.html" class="mobil-submenu-item-link">Negotiation</a></li>
+                </ul>
+            </li>
+            <li class="nav-mobil-item"><a href="shop.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="">Shop</a></li>
+            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/chat.svg" class="nav-mobil-icon" alt="">Chat</a></li>
+            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="">Logout</a></li>
+        </ul>
+
+    </nav>
+
+    <header class="header">
+
+        <div class="header-wrapper">
+
+            <nav class="header-navigation">
+
+                <ul class="navigation-list">
+                    <li class="navigation-item"><a href="EN.html" class="navigation-item-link">Newsfeed</a></li>
+                    <li class="navigation-item dropdown toggle">
+                        <input id="navigation-item-checkbox" type="checkbox">
+                        <label for="navigation-item-checkbox" class="navigation-item-checkbox">My structure</label>
+                        <ul class="submenu-list--black">
+                            <li class="submenu-item--black"><a href="profile.html" class="submenu-item-link--black">My profile</a></li>
+                            <li class="submenu-item--black"><a href="statistic.html" class="submenu-item-link--black">My statistic</a></li>
+                            <li class="submenu-item--black"><a href="contacts.html" class="submenu-item-link--black">My contacts</a></li>
+                            <li class="submenu-item--black"><a href="setting.html" class="submenu-item-link--black">Settings</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="navigation-item"><a href="instruments.html" class="navigation-item-link">Instruments</a></li>
+                    <li class="navigation-item"><a href="introduction.html" class="navigation-item-link">School</a></li>
+                    <li class="navigation-item"><a href="shop.html" class="navigation-item-link">Shop</a></li>
+                    <li class="navigation-item"><a href="#" class="navigation-item-link">Chat</a></li>
+                </ul>
+
+
+                <form class="header-form" action="" autocomplete="on">
+                    <input id="search" name="search" type="search" placeholder="Search...">
+                    <input id="search_submit" value="Rechercher" type="submit">
+                </form>
+
+                <a href="login.html" class="logout-link">Logout</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <div class="wrapper-school">
+
+        <nav class="school__navigation">
+
+            <ul class="school-nav-list">
+                <li class="school-nav-item"><a href="introduction.html" class="school-nav-item-link">Introduction</a></li>
+                <li class="school-nav-item"><a href="onlinePromotion.html" class="school-nav-item-link">Online promotion</a></li>
+                <li class="school-nav-item"><a href="offlinePromotion.html" class="school-nav-item-link school-nav-item-link--active">Offline promotion</a></li>
+                <li class="school-nav-item"><a href="businessCreation.html" class="school-nav-item-link">Business creation</a></li>
+                <li class="school-nav-item"><a href="increaseInSales.html" class="school-nav-item-link">Increase in sales</a></li>
+                <li class="school-nav-item"><a href="negotiation.html" class="school-nav-item-link">Negotiation</a></li>
+            </ul>
+
+        </nav>
+
+            <main class="school__body">
+
+                <div class="school-accordion">
+
+                    <h1 class="school-accordion-caption">Fundamental principles of offline promotion</h1>
+                    <div class="school-accordion__container">
+
+                        <h1 class="lesson-caption">Fundamental principles of offline promotion</h1>
+                        <p class="lesson-text">Many of us worry when we have an important meeting, an interview. “ I’ll fail” - many people think so. Because of this a meeting passes ineffective. It’s all about confidence. If you do not believe in what you are saying, so why another person should believe in it and accept Your point of view.</p>
+                        <p class="lesson-text">We prepared for you some rules and tips that will help You to sell any goods and services calm and confidently, convince a person that you are right and attract him into your partner network.</p>
+
+                        <div class="lesson__container">
+
+                            <h2 class="lesson-container-caption">Appearance</h2>
+                            <p class="lesson-hint">There is a rule of 150 score. 30 score for every point</p>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/avatarboy.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-three">Appearance - the better you look, the better you are spick and span and dressed with a taste, the more you win people’s favor</p>
+                            </div>
+
+                            <span class="basic-prom-number-fix3">30</span>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/head.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-two">Internal state - a cheerful, confident and positive person is more attractive than listless, unsure and dreary.</p>
+                            </div>
+
+                            <span class="basic-prom-number-fix3">60</span>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/rock.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-five">Status and solvency - the higher the person's place in the social vertical, the more interesting he is to others. The ability to behave with dignity, occupation, salary (more - income, capital), status friends - this is especially attractive.</p>
+                            </div>
+
+                            <span class="basic-prom-number">90</span>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/kit.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-four">What you are saying. If your speech is rich with filler-words, a person will not be able to acquire information. You must give clear information and with a confident voice.</p>
+                            </div>
+
+                            <span class="basic-prom-number-fix">120</span>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/target.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-two">The way you speak. Easy, beautifully, funny, warmly and sincerely - this is wow.</p>
+                            </div>
+
+                            <span class="basic-prom-number-fix">150</span>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">To get 150 scale is impossible. This is too ideal approach.</h2>
+                        <p class="lesson-text">But 100 scale is good enough to close a transaction, attract partners and strike up Lots of acquaintances</p>
+
+                        <div class="lesson__container">
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/like.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-five">Appearance. It is enough to have a well-groomed appearance and clean clothes of regular fit. A head should be clean and beautifully done up. Facial hair is shaved or has a beautiful shape. Shoes clean. Nails are well-groomed. Makeup fresh.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/box.svg" class="lesson-container-icon">
+                                <p class="lesson-container-text-overkill">Internal state. Our appearance, the quality of a voice, behavior of a body, completely depends on your internal state. If you are set to fail, think about the negative, worry and are nervous, then you will fail. In order to get rid of worry, you need to collect information about the topic of discussion as much as possible, be in a positive mood and success will not be long in coming.</p>
+                            </div>
+
+                                <img src="assets/pictures/svg/icons/panda.svg" class="basic-prom-content-img" alt="">
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/diamond.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-overkill">Status and solvency. Since you are at the beginning of the road to your wealth, then you need to make friends on the DVC. The more high-ranking friends you have at DVC, the stronger you grow. The faster you will become richer. The faster you will go to passive income. Those to whom you will offer goods and offer cooperation, it will be pleasant to realize that you are in circles of successful entrepreneurs and rich people.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/talking.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-overkill">What are you saying. Get rid of  filler-words. Speak clearly and distinctly. Do not rush. It is better to speak slowly and clearly than quickly and not clearly. You must be as informed as possible in your question. Do not be afraid to joke. Charm and humor win people's favor. Always touch a person for subtle spiritual strings: "the desire to get rich," "passive income," "freedom from a boss," "rapid growth," "while you think others are getting richer," "in a year you will regret not doing DV and did not join the DVC, "and so on.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/contract.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-five">The way you speak. Have an eye-contact. This is a necessary rule during negotiationы. The more frequent you twinkle and look away the less a person trust you. Be confident and calm. Speak slowly but do not “load” a person. A conversation must be easy and productive.</p>
+                            </div>
+
+                        </div>
+
+                        <img src="" class="basic-inst-content-img" alt="">
+
+
+                        <h2 class="lesson-caption--black">And here it is some important nuances before a meeting</h2>
+                        <p class="lesson-text">Be an active and attentive listener. Smile, nod, frown when appropriate. This will allow you to make a good impression on an interlocutor. Seeing your interest and involvement, you will easily win a partner’s favor in negotiations. Ask open-ended questions: How? Where? Why? This will visibly enliven a conversation and make it more friendly.</p>
+                        <p class="lesson-text">Call a person by name. This is not only a sign of respect and recognition, which will allow you to win an interlocutor’s favor. In addition, it is known that it is always pleasant to hear your name - use it.</p>
+
+                        <footer class="lesson-footer">
+                            <p class="lesson-footer-text">In the following lessons, we will analyze in more detail the ability to influence people and get what they want from them. We will tell secret techniques that will help very quickly and in a short time to collect a very effective team.</p>
+                        </footer>
+
+                    </div>
+
+
+                    <h1 class="school-accordion-caption">How to reach an agreement about cooperation</h1>
+                    <div class="school-accordion__container">
+
+                        <h1 class="lesson-caption">How to reach an agreement about cooperation</h1>
+                        <p class="lesson-text">In order a person to become convinced that he need to cooperate with you and, in the future, will start bringing stable passive income, it is necessary to give arguments that will help him to overcome all fears and make the right decision.
+                            For the most part, people have incorrect information, fears, prejudices. Argument will help us with this, arguments that convince a person that his fears are groundless.</p>
+
+                        <div class="coop-arg__container">
+
+                            <div class="coop__argument">
+
+                                <img src="assets/pictures/svg/icons/puzzle1.svg" class="coop-arg-img--1" alt="">
+                                <p class="coop-arg-text">Untenable arguments</p>
+                                <br>
+
+                            </div>
+
+                            <div class="coop__argument">
+
+                                <img src="assets/pictures/svg/icons/puzzle2.svg" class="coop-arg-img--2" alt="">
+                                <p class="coop-arg-text">Weak arguments</p>
+
+                            </div>
+
+                            <div class="coop__argument">
+
+                                <img src="assets/pictures/svg/icons/puzzle4.svg" class="coop-arg-img--4" alt="">
+                                <p class="coop-arg-text">Strong arguments</p>
+
+                            </div>
+
+                        </div>
+
+                        <p class="lesson-text">Arguments differ in a degree of impact on a mind and feelings of people: strong, weak and untenable. Rebuttals (counter arguments) have the same gradation.</p>
+                        <img src="assets/pictures/svg/icons/scheme-en.svg" class="coop-infographic" alt="">
+
+                        <div class="lesson__container">
+
+                            <h2 class="lesson-container-caption">Strong arguments</h2>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/200billion.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-three">World's richest market is the MLM market. The annual profit of world leaders of network business is more than 200 billion dollars. All data is in open sources.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/shield.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-three">Laws, charters, guidelines, if they are executed and correspond to real life. For example, MLM is not prohibited by law. This is absolutely legal way of earning.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/flasks.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-three">Experimentally verified conclusions. Give examples of successful businessmen of network business. There are hundreds of thousands of these stories on the Internet.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/medal.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-three">Expert's opinion. There is a popular video of a world famous business-coacher B.Tracy about MLM that it is the shortest way to the growth and richness.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/book1.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-four">Eyewitness testimonies and witnesses of events. As an example, millions of people working in the field of network business who actively conduct their pages on the Internet and show their rich life with videos from their travels.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/camera.svg" class="lesson-container-icon" alt="">
+                                <p class="lesson-container-text-two">Statistic information if data collection, processing and analysis made by a professional statistician.</p>
+                            </div>
+
+                        </div>
+
+                        <p class="lesson-text">They do not cause criticism, they can not be refuted, destroyed, or not taken into account.</p>
+
+                        <div class="lesson__container">
+
+                            <h2 class="lesson-container-caption">Weak arguments</h2>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text-two">Inferences based on two or more separate facts, the relationship between which is unclear without the third.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text-four">Tricks and judgments built on alogisms (alogism is a technique used to destroy the logic of thinking, it is often used in humor, for example: "Water, I drank it once. It does not quench thirst").</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text-two">References (quotes) to authorities, unknown or little-known to your listeners.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">Analogies and non-indicative examples.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text-two">Arguments of a private nature, coming out of circumstances or dictated by motivation, desire.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text-one">Biased retreats, aphorisms, sayings.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text-two">Arguments, versions or generalizations, made on the basis of conjectures, assumptions, sensations.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">Conclusions based on incomplete statistics.</p>
+                            </div>
+
+                        </div>
+
+                        <p class="lesson-text">They raise doubts of your opponents, clients, employees</p>
+
+                        <div class="lesson__container">
+
+                            <h2 class="lesson-container-caption">Untenable arguments</h2>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">Judgments based on fraudulent facts.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">References to doubtful, untested sources.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">Invalid decisions.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">Conjectures, guesses, assumptions, inventions.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">Arguments for prejudice, ignorance.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">Conclusions made from fictitious documents.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">Promises.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">False statements and evidences.</p>
+                            </div>
+
+                            <div class="lesson-container__content">
+                                <img src="assets/pictures/svg/icons/circle.svg" class="lesson-container-circle" alt="">
+                                <p class="lesson-container-text">Forgery and falsification of what is being said.</p>
+                            </div>
+
+                        </div>
+
+                        <p class="lesson-text">They help to expose, discredit an opponent who used them.</p>
+
+                        <footer class="coop__footer">
+
+                            <div class="coop-footer__container">
+
+                                    <img src="assets/pictures/svg/icons/lights.svg" class="coop-footer-img" alt="">
+                                    <p class="coop-footer-text">In the course of argumentation, use only those arguments that you and your opponent understand in the same way.</p>
+
+                                </div>
+
+                            <div class="coop-footer__container">
+
+                                    <img src="assets/pictures/svg/icons/handshake.svg" class="coop-footer-img" alt="">
+                                    <p class="coop-footer-text">If an argument is not accepted, find a reason for this and then do not insist on it in the conversation.</p>
+
+                                </div>
+
+                            <div class="coop-footer__container">
+
+                                <img src="assets/pictures/svg/icons/like1.svg" class="coop-footer-img" alt="">
+                                <p class="coop-footer-text">Do not underestimate the importance of strong arguments of an enemy. Better, on the contrary, emphasize their importance and your correct understanding.</p>
+
+                            </div>
+
+                            <div class="coop-footer__container">
+
+                                    <img src="assets/pictures/svg/icons/molecule.svg" class="coop-footer-img" alt="">
+                                    <p class="coop-footer-text">Say your arguments, not related to what an enemy or partner said, after you answered his arguments.</p>
+
+                                </div>
+
+                            <div class="coop-footer__container">
+
+                                    <img src="assets/pictures/svg/icons/panel.svg" class="coop-footer-img" alt="">
+                                    <p class="coop-footer-text">More accurately measure the pace of argumentation with the pace of a partner.</p>
+
+                                </div>
+
+                            <div class="coop-footer__container">
+
+                                <img src="assets/pictures/svg/icons/head1.svg" class="coop-footer-img" alt="">
+                                <p class="coop-footer-text">Excessive persuasiveness always provokes rebuff, as the superiority of a partner in a dispute is always offensive.</p>
+
+                            </div>
+
+                            <div class="coop-footer__container">
+
+                                    <img src="assets/pictures/svg/icons/idea.svg" class="coop-footer-img" alt="">
+                                    <p class="coop-footer-text">Give one or two bright arguments and, if a desired effect is achieved, limit them.</p>
+
+                                </div>
+
+                            <div class="coop-footer__container">
+
+                                    <img src="assets/pictures/svg/icons/flag1.svg" class="coop-footer-img" alt="">
+                                    <p class="coop-footer-text">Avoid weak and untenable arguments. They only harm. Use only strong arguments.</p>
+
+                                </div>
+
+                            <div class="coop-footer__container">
+
+                                    <img src="assets/pictures/svg/icons/presentation.svg" class="coop-footer-img" alt="">
+                                    <p class="coop-footer-text">Be flexible. There is no need to argue with a man. When he says something, take his point of view, but after offer a strong argument. As a result, the conversation will be easier in your channel.</p>
+
+                                </div>
+
+                        </footer>
+
+                    </div>
+
+
+                    <h1 class="school-accordion-caption">Create an image of a successful person</h1>
+                    <div class="school-accordion__container">
+
+                        <h1 class="lesson-caption">Create an image of a successful person</h1>
+                        <p class="lesson-text">Имидж – это стиль, детали, образ – все то, что сходу определяет нашу роль в окружающем мире в глазах другого человека. «Если вы хотите быть успешными, то вам нужно уже сейчас выглядеть так, словно вы уже успешны» — убеждал когда-то соотечественников Томас Мор. </p>
+                        <p class="lesson-text">Для того, чтобы создать вокруг себ ореол успешности, чтобы люди видели в вас не напыщенного и ничего не стоящего дурака, а человека, которому можно доверять и на которого можно положиться, мы дадим несколько действенных советов:</p>
+
+                        <img src="assets/pictures/svg/icons/cloud1r.svg" class="successful-cloud--right" alt="">
+                        <img src="assets/pictures/svg/icons/panda1.svg" class="successful-panda--right" alt="">
+
+                        <div class="successful__container">
+
+                            <img src="assets/pictures/svg/icons/earth1.svg" class="successful-img--middle" alt="">
+                            <p class="successful-text">Правильно позиционируйте себя в Интернете.
+                                Нужно привести свои аккаунты в социальных сетях в соответствие с тем образом, который вы планируете транслировать окружающим. Около 70% информации должно относиться к профессиональной сфере и не более 30% – к личной.  Тем самым вы наглядно продемонстрируете окружающим, что вы человек, который способен управлять всем, что происходит у него в жизни.</p>
+
+                        </div>
+
+                        <div class="successful__container">
+
+                            <img src="assets/pictures/svg/icons/beer1.svg" class="successful-img--large" alt="">
+                            <p class="successful-text">Если вы серьезно планируете заниматься бизнесом или политикой, у вас не должно быть компрометирующих фотографий: с сигаретами, в пьяных компаниях, в шортах, купальнике, топлес и пр. Также не следует демонстрировать во всех ракурсах, где и с кем вы живете и как проводите свой отдых. У людей может сложиться превратное представление о вас как о человеке, который совершенно не заинтересован в работе. Если вы все же хотите делиться с окружающими подобным контентом, заведите для этого закрытый аккаунт, который будет доступен только вашим друзьям. Помните, у лидеров не должно быть слабостей, поэтому все подобные моменты, через которые вами можно манипулировать, лучше удалить. Во-первых, никогда не давайте повода фотографировать вас в ненадлежащем виде. Если вы взяли на себя роль лидера, это означает, что вы всегда должны быть собраны, что у вас нет права напиваться, вульгарно себя вести, неряшливо выглядеть и пр. </p>
+
+                        </div>
+
+                        <div class="successful__container">
+
+                            <img src="assets/pictures/svg/icons/camera.svg" class="successful-img--small" alt="">
+                            <p class="successful-text">Во-вторых, сделайте на своей странице в соцсети настройку, запрещающую отмечать вас на фотографиях без вашего согласия. Социальные сети - отличный инструмент для создания личного бренда, используйте все его возможности.</p>
+
+                        </div>
+
+                        <img src="assets/pictures/svg/icons/cloud1l.svg" class="successful-cloud--left" alt="">
+                        <img src="assets/pictures/svg/icons/panda1.svg" class="successful-panda--left" alt="">
+
+                        <div class="successful__container">
+
+                            <p class="successful-text">Вы будете выглядеть более солидно, если на вас надето два и более слоя одежды. Мужчинам лучше надевать рубашку на тонкую майку, если одета одна рубашка, то сверху должно быть что-то еще (жилет, пиджак, кофта или шарф). Женщинам к платью следует надевать аксессуары, например, бусы, брошку или шарфик, обязательно наличие рукавов (даже у летних кофт). Колени следует закрывать, это правило универсально и относится как к мужчинам, так и к женщинам. Также не следует демонстрировать бренды одежды, которую вы носите, это автоматически понижает вашу стоимость как эксперта в вашей профессиональной области.</p>
+                            <img src="assets/pictures/svg/icons/shirt1.svg" class="successful-img--large--right" alt="">
+
+                        </div>
+
+                        <div class="successful__container">
+
+                            <p class="successful-text">Все татуировки и пирсинги на теле должны быть закрыты. Никогда не угадаешь, как человек, с которым вы ведете дела относятся к украшениям тела, поэтому всегда лучше перестраховаться.</p>
+                            <img src="assets/pictures/svg/icons/avatarboy1.svg" class="successful-img--small--right" alt="">
+
+                        </div>
+
+                        <div class="successful__container">
+
+                            <p class="successful-text">Аксессуары следует использовать аккуратно и дозированно. К примеру, если речь идет об очках, то это должен быть качественный и современный продукт. Женщины стараются выделиться за счет дорогих украшений, у мужчин эту задачу выполняют часы, поэтому они также должны быть соответствующего качества. Обязательный элемент образа успешного руководителя сегодня – гаджеты. Прийти на переговоры с кнопочным телефоном старой модели может позволить себе человек, у которого уже все настолько хорошо, что ему не надо никому ничего доказывать. В остальных случаях лучше пользоваться современным стильным аппаратом.</p>
+                            <img src="assets/pictures/svg/icons/settingclock1.svg" class="successful-img--large--right" alt="">
+
+                        </div>
+
+                        <img src="assets/pictures/svg/icons/cloud2r.svg" class="successful-cloud--right" alt="">
+                        <img src="assets/pictures/svg/icons/panda1.svg" class="successful-panda--right" alt="">
+
+                        <p class="lesson-text">Вы – это среднестатистическое вашего окружения. Это утверждение в равной степени относится ко всем сферам: финансовой, личной, духовной. Если вас окружают не самые успешные люди, а вы хотите быть успешным, то следует поменять круг общения. Лучше окружать себя теми, кто добился большего, чем вы. Выясняйте, какие мероприятия посещают интересующие вас люди, в какие рестораны и картинные галереи ходят. Отправляйтесь в те же места, наблюдайте за этими людьми, начните одеваться так же, как они, читайте те же книги. Побывав на пяти-шести мероприятиях, вы поймете, как представители интересующего вас круга взаимодействуют между собой. Сначала придется постоять в стороне и понаблюдать, но потом вы сможете вести себя так же. Чтобы заинтересовать человека, который успешнее вас, обязательно развивайте коммуникационные навыки – с помощью обучения, тренингов и пр. </p>
+
+                        <img src="assets/pictures/svg/icons/cloud2l.svg" class="successful-cloud--left" alt="">
+                        <img src="assets/pictures/svg/icons/panda1.svg" class="successful-panda--left" alt="">
+
+                        <p class="successful-text--border">Прежде чем создаваемый образ станет вашей второй натурой, пройдет не менее полугода. Вам потребуется высокая внутренняя мотивация и самодисциплина. Ведь новый образ нужно поддерживать не только на работе, но и дома. Важно, чтобы близкие верили в Вас и вдохновляли. Займитесь целеполаганием, это может помочь в трудную минуту. Представьте себя через пять и через 20 лет. Пропишите в мельчайших подробностях на нескольких листах: где вы, чем занимаетесь, как зарабатываете, кто вас окружает, с кем общаетесь и т. д. Проделав это, вы поймете, что успех зависит только от вас, и сможете определиться с тем, что нужно делать прямо сейчас, чтобы его достигнуть.</p>
+                        <p class="successful-text--border">Какие еще факторы важны при создании имиджа успешного человека? Драйв и общий тонус. В здоровом теле здоровый дух – со всеми вытекающими отсюда последствиями, как то: стрессоустойчивость, умение держать удар, более высокий КПД и магнетизм. Вырабатывайте здоровые привычки: занимайтесь спортом, не нарушайте режим сна, правильно питайтесь и пр.</p>
+
+                        <div class="successful__container">
+
+                            <img src="assets/pictures/svg/icons/talking1.svg" class="successful-img--small" alt="">
+                            <p class="successful-text">Поставленный голос. Приятный, красивый, уверенный голос – весомое достоинство любого человека, особенно того, который ведет переговоры. Есть отличный тренинг: прорепетируйте монолог на любую тему и запишите себя на диктофон. Воспроизведите запись – это поможет избавить Вашу речь от недостатков.</p>
+
+                        </div>
+
+                        <div class="successful__container">
+
+                            <img src="assets/pictures/svg/icons/ring.svg" class="successful-img--small" alt="">
+                            <p class="successful-text">Отсутствие суетливости. Не суетитесь – ни в движениях, ни в словах. Возможно, у вас очень активная жестикуляция - но не нужно доводить это до грани. Избавиться от суеты помогают йога, пилатес, скандинавская ходьба, медитация и массаж.</p>
+
+                        </div>
+
+                        <div class="successful__container">
+
+                            <img src="assets/pictures/svg/icons/message1.svg" class="successful-img--small" alt="">
+                            <p class="successful-text">Как Вы представляетесь другим людям. Важно продумывать ники, аватары и даже адреса электронной почты. Они не должны быть шутливыми, придуманными в далеком детстве, либо быть набором случайных символов - это добавляет больную порцию несерьезности к вашему образу.</p>
+
+                        </div>
+
+
+                        <p class="lesson-text">Все эти мелкие, казалось бы, детали и нюансы создают ту самую ауру успешности, которая помогает достичь лучших результатов в решении любых вопросов — от деловых до личных. С помощью грамотной подачи своего образа, люди заключают выгодные сделки, получают скидки у поставщиков, привлекают внимание желаемых объектов противоположного пола. Их опыт еще раз доказывает — правила успешного образа существуют и действительно работают!</p>
+
+                        <footer class="lesson-footer">
+                            <p class="lesson-footer-text">Забота о своем образе, своем внешнем виде — это не жеманство, не излишество и не погоня за модой. Это элементарное уважение к себе и окружающим людям. Это возможность быть понятым, услышанным и в любой ситуации чувствовать себя победителем.</p>
+                        </footer>
+
+                    </div>
+
+
+                    <h1 class="school-accordion-caption">How to increase trust to yourself</h1>
+                    <div class="school-accordion__container">
+
+                        <h1 class="lesson-caption">How to increase trust to yourself</h1>
+                        <p class="lesson-text">При первом знакомстве с компанией потребитель либо принимает на веру ваши слова о высоком качестве предлагаемого товара (услуги), либо заручается рекомендациями знакомых. А вот после заключения сделки он уже готов самостоятельно свидетельствовать в вашу пользу или, напротив, не делать этого. В этом уроке мы рассмотрим 10 простых методов, как завоевать доверие клиентов. Эти способы давно знакомы каждому из нас — более того, мы их используем, но порой забываем, что эффективнее всего они работают в комплексе.</p>
+
+                        <h2 class="lesson-caption--black">Используйте силу бренда и названия компании.</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-one.svg" class="trust-img" alt="">
+                            <p class="trust-text">Бренд — одна из мощных гарантий качества. Правда, он предполагает высокую цену, поскольку увеличивает субъективно воспринимаемую стоимость услуги либо товара. Работая под брендом, вы — уже не вы, а представитель торговой марки, что, несомненно, налагает серьезную ответственность как на компанию, так и на ее сотрудников. </p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">Работайте над образом места встречи с клиентом.</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-two.svg" class="trust-img--middle" alt="">
+                            <p class="trust-text">Впечатление и ожидания, которые появляются у посетителя уже при входе в офис или точку продаж, либо в месте встречи (кафе, ресторан) -  немедленно переносятся на ваши товары и услуги. Обратите внимание на здание. Первое впечатление клиент получает, когда подходит к зданию. И второго шанса произвести первое впечатление уже никогда не будет. Присмотритесь к соседям и обстановке. И бренд, и местоположение офиса либо места встречи,  и окружение должны вызывать у потенциального потребителя доверие и уважение. Тут действует принцип «с кем поведешься». </p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">Демонстрируйте рабочий процесс и рассказывайте о достижениях.</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-three.svg" class="trust-img--small" alt="">
+                            <p class="trust-text">Чтобы завоевать расположение клиентов, расскажите о технологиях, которые используются в работе, пусть информация будет прозрачной. Наглядность очень показательна — это вещественные доказательства вашей профессиональной состоятельности. В презентационных материалах обязательно создайте отдельную папку с портфолио компании и отзывами довольных клиентов.</p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">Предоставьте возможность тестирования.</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-four.svg" class="trust-img" alt="">
+                            <p class="trust-text">Дайте потребителям возможность протестировать услугу или товар до приобретения. Это самый верный способ подтвердить вашу добропорядочность и конкурентоспособность. Покупатель, ничем не рискуя и не покупая кота в мешке, проверяет, настолько ли услуга качественна, как заявляет ее продавец. </p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">Используйте все PR-возможности</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-five.svg" class="trust-img" alt="">
+                            <p class="trust-text">Бесспорный факт: чем чаще название компании упоминается в прессе и социальных сетях, тем лучше. Плюс к тому давно уже не секрет, что нерекламное упоминание вызывает больше доверия. Общайтесь со своими клиентами после покупки, просите у них рекомендации - такие упоминания о вашем продукте только сыграют вам на руку.</p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">Поддерживайте связь с клиентами.</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-six.svg" class="trust-img--large" alt="">
+                            <p class="trust-text">Простой и эффективный прием выиграть расположение клиентов — регулярное общение по телефону, поскольку клиент чувствует вашу заботу и заинтересованность. Здесь решаются сразу три задачи: борьба с конкурентами, актуализация информации об услуге и приобретение новых клиентов за счет рекомендаций ваших приверженцев. Демонстрация заботы о нынешних потребителях обходится в десятки раз дешевле, чем поиск новых заказчиков. Однако следует учесть несколько нюансов. Помните, что у человека автоматически формируется впечатление от беседы по телефону. Интонация, тон, тембр голоса, темп речи — все это слушатель прекрасно чувствует. Любая пауза в телефонном разговоре красноречивее паузы при личном общении. А неуверенность в голосе позволит сразу поставить невидимому собеседнику диагноз «некомпетентность».</p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">Поощряйте рекомендации.</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-seven.svg" class="trust-img" alt="">
+                            <p class="trust-text">Как вы выбираете врача или репетитора? Правильно, по рекомендациям знакомых. Сарафанное радио по‑прежнему в тренде. Особенно эффективно использовать рекомендации лидеров мнений, например, коктейль Vita Energy целесообразнее рекомендовать с помощью спортсменов или моделей.</p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">Показывайте результат использования услуги и отказа от нее.</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-eight.svg" class="trust-img--large" alt="">
+                            <p class="trust-text">Демонстрируйте клиентов, уже получивших качественную услугу и полностью довольных ею. Сравните их, лучше немного иронично, с теми, кто вашими услугами не пользуется. Такой прием используют ремонтные компании. Они заявляют: «Мы выполним работу быстро и качественно!» — и в красках рассказывают о тех, кто пытался все сделать самостоятельно, а в итоге потерял время и деньги, да еще и затопил соседей снизу. В ход идут фото отремонтированных и испорченных объектов. Еще один вариант - ход “до и после”. Используется прием с незаконченным образом: обычно отсутствует середина истории, то есть сам процесс использования продукта или оказания услуги. Так рождается иллюзия мгновенного решения проблемы. По мнению многих специалистов, это банальный, но эффективный прием. Однако всегда нужно иметь под рукой объяснение такого “преображения”, иначе этот способ сработает для вас в негативном ключе.</p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">Используйте стереотипы.</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-nine.svg" class="trust-img--large" alt="">
+                            <p class="trust-text">Очень часто стереотипы из жизни клиентов распространяются на товары и услуги. Например, вы никогда не пойдете отмечать день рождения в дешевый ресторан, не станете отвечать на анонимное коммерческое предложение. Дорого — значит качественно. Дорогое некачественным, скорее всего, не будет — вот стереотип, который помогает создать представление о высоком качестве услуги еще до ее продажи. Иногда цена — едва ли не единственный реальный параметр, по которому потребитель может оценить качество. Вот несколько примеров текстов, где апеллируют к цене, весьма недвусмысленно намекая на качество. </p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">Позаботьтесь о дополнительном сервисе.</h2>
+
+                        <div class="trust__container">
+
+                            <img src="assets/pictures/svg/icons/icon-ten.svg" class="trust-img--small" alt="">
+                            <p class="trust-text">К основному виду обслуживания добавьте, например, горячую линию, доставку до места - любые услуги, которые подходят вам по возможности реализации. Это практически сразу располагает к доверию. Логично предположить, что если вы проявляете заботу о клиенте даже во второстепенных вопросах, то уж в основной деятельности абсолютно безупречны.</p>
+
+                        </div>
+
+                        <div class="trust-scheme__container">
+
+                            <h3 class="trust-scheme-caption">Все эти десять способов работают безотказно, если, конечно, вы применяете их в нужной ситуации. Однако на увеличение доверия к вам влияют еще несколько факторов, которые вы обязательно должны соблюдать для достижения нужного эффекта</h3>
+
+                            <div class="trust-scheme__content">
+
+                                <img src="assets/pictures/svg/icons/pants.svg" class="trust-scheme-content-icon" alt="">
+                                <p class="trust-scheme-content-text">Позаботьтесь о внешнем виде, вы не должны выглядеть неаккуратно и неопрятно.</p>
+
+                            </div>
+
+                            <div class="trust-scheme__content">
+
+                                <img src="assets/pictures/svg/icons/twincecircle.svg" class="trust-scheme-content-icon" alt="">
+                                <p class="trust-scheme-content-text">Задавайте клиенту вопросы, учитесь его слушать и слышать.</p>
+
+                            </div>
+
+                            <div class="trust-scheme__content">
+
+                                <img src="assets/pictures/svg/icons/infocircle.svg" class="trust-scheme-content-icon" alt="">
+                                <p class="trust-scheme-content-text">Не прячьте глаза во время разговора - это признак лжи.</p>
+
+                            </div>
+
+                            <div class="trust-scheme__content">
+
+                                <img src="assets/pictures/svg/icons/gift.svg" class="trust-scheme-content-icon" alt="">
+                                <p class="trust-scheme-content-text">Предлагайте клиентам приятные мелочи - пусть даже пакет с вашим брендированием.</p>
+
+                            </div>
+
+                        </div>
+
+                        <p class="lesson-text">Ну и наконец, с доверием очень тесно связана такая простая вещь, как благодарность. Каждый человек любит, чтобы его благодарили, и лишним это не будет. Благодарность дает понять, что человек ценен, как и его работа. На это обращают внимание окружающие люди.</p>
+                        <p class="lesson-text">Благодарить следует в любой ситуации даже если это мелочи. Доверие можно повысить, если поблагодарить клиента, когда сделка не получилась. Он потратил и свое время, и время продавца. Уже за это его можно отблагодарить, чтобы в другой ситуации он обратился еще раз за помощью.</p>
+
+                    </div>
+
+
+                    <h1 class="school-accordion-caption">Clients before a face</h1>
+                    <div class="school-accordion__container">
+
+                        <h1 class="lesson-caption">Clients before a face</h1>
+                        <p class="lesson-text">Все отлично, ты зарегистрировался на ДВК, ты почитал немало полезной информации и пришло время искать первых клиентов...Стоп.</p>
+                        <p class="lesson-text">А где их искать? Где их найти и что с ними делать? В этом уроке ДВК мы подробно расскажем тебе, как найти своих первых клиентов не прилагая больших усилий - ведь они буквально у тебя “под носом”! <b>Итак, поехали!</b></p>
+
+                        <h2 class="lesson-caption--black">1. Список ваших знакомых.</h2>
+
+                        <div class="before-face__container">
+
+                            <img src="assets/pictures/svg/icons/networking1.svg" class="before-face-img--middle" alt="">
+                            <p class="before-face-text">Это классический способ привлечения клиентов. На первых порах необходимо написать краткий список из 30 – 40 людей, которых вы знаете. Всегда старайтесь пополнять список новыми людьми. Работа со списком для новичка – это самый быстрый и простой способ получения результата в бизнесе, т.к. знакомые люди вас знают и доверяют. </p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">2. Знакомые знакомых</h2>
+
+                        <div class="before-face__container">
+
+                            <img src="assets/pictures/svg/icons/networking2.svg" class="before-face-img--large" alt="">
+                            <p class="before-face-text">У людей, которых вы не смогли заинтересовать, желательно попросить  порекомендовать  несколько их знакомых, которым, по их мнению, была бы интересна возможность общения с вами.  Позвонив этим людям, вы можете сослаться на человека, который их порекомендовал и доверия у этих людей к вам будет гораздо больше, чем, если бы это были абсолютно незнакомые люди. Этот способ поможет пополнить ваш список знакомых и даже если большая часть людей, не заинтересуется в данный момент вашим предложением, то в любом случае вы можете вернуться к разговору об этом спустя какое-то время.</p>
+
+                        </div>
+
+                        <div class="before-face-scheme__container">
+
+                            <h3 class="before-face-scheme-caption">Первые два варианта могут показаться малоэффективными, так как часто можно услышать “ой, я уже всем предложил”. А всем ли?</h3>
+                            <img src="assets/pictures/svg/icons/beforeface-scheme.svg" class="before-face-scheme-img" alt="">
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">3. Объявления в социальных сетях.</h2>
+
+                        <div class="before-face__container">
+
+                            <img src="assets/pictures/svg/icons/talking1.svg" class="before-face-img--middle" alt="">
+                            <p class="before-face-text">Количество социальных сетей, которые можно эффективно использовать для ваших продаж - просто огромное! Это вам и обычные мессенджеры, и видеосети, и возможности создавать собственные каналы и закрытые чаты - в общем, инструментов куча, нужно только желание. К тому же, такое продвижение действительно эффективно, учитывая постоянно растущую популярность всех социальных сетей.</p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">4. Рассылки.</h2>
+
+                        <div class="before-face__container">
+
+                            <img src="assets/pictures/svg/icons/kit1.svg" class="before-face-img--middle" alt="">
+                            <p class="before-face-text">Как показывает практика, это действительно эффективный способ привлечь людей. Но есть одно НО. Если у вас не своей базы, то агентства, специализирующиеся на электронных рассылках вряд ли предложат вам базу, соответствующую вашим запросам. Поэтому базу нужно набирать, либо покупать - тут уже все зависит от ваших целей и финансовых возможностей.</p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">5. Лендинги.</h2>
+
+                        <div class="before-face__container">
+
+                            <img src="assets/pictures/svg/icons/laptop1.svg" class="before-face-img--small" alt="">
+                            <p class="before-face-text">Лендинги, или, как их еще называют, продающие страницы, (при грамотном составлении) способны привлечь огромный интерес аудитории к вашему проекту. Не упускайте такую возможность – используйте ее по максимуму.</p>
+
+                        </div>
+
+                        <h2 class="lesson-caption--black">6. Холодные контакты.</h2>
+
+                        <div class="before-face__container">
+
+                            <img src="assets/pictures/svg/icons/support1.svg" class="before-face-img--middle" alt="">
+                            <p class="before-face-text">Холодные контакты - это потенциальные клиенты, с которыми вы ранее не были знакомы и вы собираетесь предложить ему продукт/услугу/сотрудничество посредством личной встречи/телефонного звонка(чаще всего). К таким контактам должен быть особый подход - никакого давления, четкий план диалога, визуальное сопровождение беседы (промо-материалы).</p>
+
+                        </div>
+
+
+                        <p class="lesson-text">Придя в бизнес, вы сразу же становитесь клиентом компании, которую вы выбрали.Пользуясь высококлассной продукцией, вы получаете результат. Получив результат, вы можете с лёгкостью и уверенностью говорить об этом. Вам нет необходимости целенаправленно искать клиентов, если вы конечно не продавец. Каждый дистрибьютор пользующийся продукцией будет естественным образом обрастать клиентами, просто рекомендуя и говоря о своих результатах и результатах своих родных и близких людей. Поэтому используйте как можно большее количество продуктов вашей компании и делитесь этим с другими.</p>
+
+                        <footer class="lesson-footer">
+                            <p class="lesson-footer-text">Думаем, после такого количества вариантов поиска партнёров, вопрос о том, где найти людей в бизнес у вас отпал. Остаётся только действовать.</p>
+                        </footer>
+
+                    </div>
+
+                </div>
+
+                <h1 class="school-accordion-caption-empty">Customers for life</h1>
+
+                <h1 class="school-accordion-caption-empty">Making a residual income</h1>
+
+            </main>
+
+        </div>
+
+        <a href="#anchor--top" class="scrollup" id="scrollToTop">
+            <div class="arrow-wrapper"><div class="arrows"></div></div>
+        </a>
+
+        <footer class="footer">
+            <p class="footer-text">All rights reserved.
+                <br> 2017 | <span class="diavita">DiaVita</span></p>
+        </footer>
+
+        <script src="js/accordion.js"></script>
+        <script src="js/dropdownmenu.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/submenu.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsfeed</title>
+    <link rel="shortcut icon" href="assets/pictures/title.png" type="image/png">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="css/media1600.css" rel="stylesheet">
+    <link href="css/media1400.css" rel="stylesheet">
+    <link href="css/media1200.css" rel="stylesheet">
+    <link href="css/media992.css" rel="stylesheet">
+    <link href="css/media768.css" rel="stylesheet">
+    <link href="css/media320.css" rel="stylesheet">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="js/search.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/submenu.js"></script>
+    <script src="js/scrollup.js"></script>
+    <script src="js/dropdownmenu.js"></script>
+    <script src="js/hoverImages.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+
+    <a id="anchor--top"></a>
+
+    <div class="btn button-container" id="open">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+
+    <nav class="nav-mobil" id="nav-mobil">
+
+        <ul class="nav-mobil-list" id="accordion">
+            <li class="nav-mobil-item"><a href="EN.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/home.svg" class="nav-mobil-icon-fix" alt="">Newsfeed</a></li>
+            <li class="nav-mobil-item submenu-open">
+                <div class="link"><img src="assets/pictures/svg/avatar1.svg" class="nav-mobil-icon" alt="">My structure<i class="fa fa-chevron-down"></i></div>
+                <ul class="mobil-submenu-list">
+                    <li class="mobil-submenu-item"><a href="profile.html" class="mobil-submenu-item-link">My profile</a></li>
+                    <li class="mobil-submenu-item"><a href="statistic.html" class="mobil-submenu-item-link">My statistic</a></li>
+                    <li class="mobil-submenu-item"><a href="contacts.html" class="mobil-submenu-item-link">My contacts</a></li>
+                    <li class="mobil-submenu-item"><a href="setting.html" class="mobil-submenu-item-link">Setting</a></li>
+                </ul>
+            </li>
+            <li class="nav-mobil-item"><a href="instruments.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/wrench.svg" class="nav-mobil-icon" alt="">Instruments</a></li>
+            <li class="nav-mobil-item">
+                <div class="link"><img src="assets/pictures/svg/graduate-cap.svg" class="nav-mobil-icon-fix" alt="">School<i class="fa fa-chevron-down"></i></div>
+                <ul class="mobil-submenu-list">
+                    <li class="mobil-submenu-item"><a href="introduction.html" class="mobil-submenu-item-link">Introducion</a></li>
+                    <li class="mobil-submenu-item"><a href="onlinePromotion.html" class="mobil-submenu-item-link">Online promotion</a></li>
+                    <li class="mobil-submenu-item"><a href="offlinePromotion.html" class="mobil-submenu-item-link">Offline promotion</a></li>
+                    <li class="mobil-submenu-item"><a href="businessCreation.html" class="mobil-submenu-item-link">Business creating</a></li>
+                    <li class="mobil-submenu-item"><a href="increaseInSales.html" class="mobil-submenu-item-link">Increase in sales</a></li>
+                    <li class="mobil-submenu-item"><a href="negotiation.html" class="mobil-submenu-item-link">Negotiation</a></li>
+                </ul>
+            </li>
+            <li class="nav-mobil-item"><a href="shop.html" class="nav-mobil-item-link"><img src="assets/pictures/svg/cart.svg" class="nav-mobil-icon-fix" alt="">Shop</a></li>
+            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/chat.svg" class="nav-mobil-icon" alt="">Chat</a></li>
+            <li class="nav-mobil-item"><a href="#" class="nav-mobil-item-link"><img src="assets/pictures/svg/logout.svg" class="nav-mobil-icon" alt="">Logout</a></li>
+        </ul>
+
+    </nav>
+
+    <header class="header-home">
+
+            <div class="header-wrapper">
+
+                <a href="login.html" class="logout-link">Logout</a>
+
+                <nav class="header-navigation">
+
+                    <ul class="navigation-list">
+                        <li class="navigation-item"><a href="EN.html" class="navigation-item-link">Newsfeed</a></li>
+                        <li class="navigation-item dropdown toggle">
+                            <input id="navigation-item-checkbox" type="checkbox">
+                            <label for="navigation-item-checkbox" class="navigation-item-checkbox">My structure</label>
+                            <ul class="submenu-list">
+                                <li class="submenu-item"><a href="profile.html" class="submenu-item-link">My profile</a></li>
+                                <li class="submenu-item"><a href="statistic.html" class="submenu-item-link">My statistic</a></li>
+                                <li class="submenu-item"><a href="contacts.html" class="submenu-item-link">My contacts</a></li>
+                                <li class="submenu-item"><a href="setting.html" class="submenu-item-link">Settings</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="navigation-item"><a href="instruments.html" class="navigation-item-link">Instruments</a></li>
+                        <li class="navigation-item"><a href="introduction.html" class="navigation-item-link">School</a></li>
+                        <li class="navigation-item"><a href="shop.html" class="navigation-item-link">Shop</a></li>
+                        <li class="navigation-item"><a href="#" class="navigation-item-link">Chat</a></li>
+                    </ul>
+
+
+                    <form class="header-form" action="" autocomplete="on">
+                        <input id="search" name="search" type="search" placeholder="Search...">
+                        <input id="search_submit" value="Rechercher" type="submit">
+                    </form>
+
+                </nav>
+
+                <a href="#" class="header-logo-link"><img src="assets/pictures/svg/logotrans.svg" class="header-logo" alt=""></a>
+                <p class="header-rpeview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor quis ante eu pretium. Aliquam at augue mi. Donec pulvinar fringilla pretium. Morbi bibendum fermentum sollicitudin. Quisque convallis nisl sem, vel ultricies elit bibendum sed.</p>
+                <a href="introduction.html" class="header-btn">Go to school</a>
+
+            </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="wrapper">
+
+            <article class="newsfeed-post">
+
+                <figure class="newsfeed__image gradient">
+                    <img src="assets/pictures/img/cinnamon.jpg" class="newsfeed-img"  alt="">
+                    <figcaption>
+                        <h2 class="newsfeed-caption">Lorem ipsum</h2>
+                    </figcaption>
+                    <a href="#"></a>
+                </figure>
+
+                <div class="post-info__container">
+
+                    <img src="assets/pictures/svg/calendar.svg" class="post-icon"  alt="">
+                    <time datetime="" class="post-data post-date">08.08.2017</time>
+
+                </div>
+
+                <div class="post-info__container">
+
+                    <img src="assets/pictures/svg/clock.svg" class="post-icon"  alt="">
+                    <time datetime="" class="post-data post-time">11:11</time>
+
+                </div>
+
+                <div class="post-info__container--right">
+
+                    <img src="assets/pictures/svg/group.svg" class="post-icon"  alt="">
+                    <span class="post-data post-wievers">2K visitors</span>
+
+                </div>
+
+                <h1 class="post-caption">Lorem ipsum</h1>
+                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat ultricies dictum. Phasellus ultrices, libero ac scelerisque congue, diam sem tristique urna, ut tincidunt diam nibh in ligula. Vestibulum sapien ex, suscipit et risus at, lobortis euismod nulla. Proin nec ex felis. Suspendisse dignissim ipsum arcu. Duis finibus laoreet tempus. </p>
+
+                <a href="#" class="post-readmore-link">Read more</a>
+
+            </article>
+
+            <article class="newsfeed-post">
+
+                <figure class="newsfeed__image gradient">
+                    <img src="assets/pictures/img/cinnamon.jpg" class="newsfeed-img"  alt="">
+                    <figcaption>
+                        <h2 class="newsfeed-caption">Lorem ipsum</h2>
+                    </figcaption>
+                    <a href="#"></a>
+                </figure>
+
+                <div class="post-info__container">
+
+                    <img src="assets/pictures/svg/calendar.svg" class="post-icon"  alt="">
+                    <time datetime="" class="post-data post-date">08.08.2017</time>
+
+                </div>
+
+                <div class="post-info__container">
+
+                    <img src="assets/pictures/svg/clock.svg" class="post-icon"  alt="">
+                    <time datetime="" class="post-data post-time">11:11</time>
+
+                </div>
+
+                <div class="post-info__container--right">
+
+                    <img src="assets/pictures/svg/group.svg" class="post-icon"  alt="">
+                    <span class="post-data post-wievers">2K visitors</span>
+
+                </div>
+
+                <h1 class="post-caption">Lorem ipsum</h1>
+                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat ultricies dictum. Phasellus ultrices, libero ac scelerisque congue, diam sem tristique urna, ut tincidunt diam nibh in ligula. Vestibulum sapien ex, suscipit et risus at, lobortis euismod nulla. Proin nec ex felis. Suspendisse dignissim ipsum arcu. Duis finibus laoreet tempus. </p>
+
+                <a href="#" class="post-readmore-link">Read more</a>
+
+            </article>
+
+            <article class="newsfeed-post">
+
+                <figure class="newsfeed__image gradient">
+                    <img src="assets/pictures/img/cinnamon.jpg" class="newsfeed-img"  alt="">
+                    <figcaption>
+                        <h2 class="newsfeed-caption">Lorem ipsum</h2>
+                    </figcaption>
+                    <a href="#"></a>
+                </figure>
+
+                <div class="post-info__container">
+
+                    <img src="assets/pictures/svg/calendar.svg" class="post-icon"  alt="">
+                    <time datetime="" class="post-data post-date">08.08.2017</time>
+
+                </div>
+
+                <div class="post-info__container">
+
+                    <img src="assets/pictures/svg/clock.svg" class="post-icon"  alt="">
+                    <time datetime="" class="post-data post-time">11:11</time>
+
+                </div>
+
+                <div class="post-info__container--right">
+
+                    <img src="assets/pictures/svg/group.svg" class="post-icon"  alt="">
+                    <span class="post-data post-wievers">2K visitors</span>
+
+                </div>
+
+                <h1 class="post-caption">Lorem ipsum</h1>
+                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat ultricies dictum. Phasellus ultrices, libero ac scelerisque congue, diam sem tristique urna, ut tincidunt diam nibh in ligula. Vestibulum sapien ex, suscipit et risus at, lobortis euismod nulla. Proin nec ex felis. Suspendisse dignissim ipsum arcu. Duis finibus laoreet tempus. </p>
+
+                <a href="#" class="post-readmore-link">Read more</a>
+
+            </article>
+
+        </div>
+
+    </main>
+
+    <a href="#anchor--top" class="scrollup" id="scrollToTop">
+        <div class="arrow-wrapper"><div class="arrows"></div></div>
+    </a>
+
+    <footer class="footer">
+            <p class="footer-text">All rights reserved.
+                <br> 2017 | <span class="diavita">DiaVita</span></p>
+        </footer>
+
+    <script src="js/search.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/scrollup.js"></script>
+    <script src="js/submenu.js"></script>
+    <script src="js/dropdownmenu.js"></script>
+    <script src="js/hoverImages.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+</body>
+</html>
